@@ -35,7 +35,7 @@ public class CheckedAppTest {
             throw new ConnectException("연결 실패");
         }
     }
-    
+
     static class Repository {
         public void call() throws SQLException {
             throw new SQLException("ex");
